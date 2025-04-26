@@ -116,3 +116,16 @@ eslint@^9 | Linting tool for maintaining code quality and catching errors.
 eslint-config-next@15.3.1 | Official ESLint configuration used in Next.js projects.
 tailwindcss@^4 | Utility-first CSS framework for rapid UI development.
 typescript@^5 | Superset of JavaScript adding strong typing and modern tooling features.
+
+
+## 📁 How to Clone This Repository
+
+Follow these steps to get a local copy of the project up and running:
+```
+# Clone the repository
+git clone https://github.com/mithrangowda07/Team-Obritorn.git
+
+# Move into the project directory
+cd Team-Obritorn
+```
+Once you're inside the folder, you can install dependencies and run the simulation or C++ code as described in the previous sections.
