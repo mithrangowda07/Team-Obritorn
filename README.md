@@ -66,6 +66,17 @@ Output:
 1 6 8 7 10 4 5 2 9 3 1 1886.77
 ```
 
+#### 🧾 Dependencies
+Only standard C++ libraries are used:
+1. <iostream>
+2. <fstream>
+3. <vector>
+4. <cmath>
+5. <algorithm>
+6. <limits>
+No additional installations or external libraries are required.
+
+
 # Simulation
 
 We built a 3D simulation using the Three.js library within the Next.js framework to visually represent the spacecraft navigating through the optimized path of waypoints. The simulation offers a dynamic view of how the path is traversed in 3D space, enhancing understanding of the optimization result.
@@ -85,4 +96,23 @@ npm run dev
 
 Go to http://localhost:3000 to view the 3D simulation.
 
+#### 📦 Dependencies
 
+Package | Description
+next@15.3.1 | React framework for server-side rendering, routing, and building web apps.
+react@^19.0.0 | Core JavaScript library for building interactive UIs.
+react-dom@^19.0.0 | Enables React components to be rendered into the DOM.
+three@^0.176.0 | JavaScript 3D library to render interactive 3D content in the browser.
+
+##### 🛠️ Dev Dependencies
+
+Package | Description
+@eslint/eslintrc@^3 | ESLint internal utility for managing shared config definitions.
+@tailwindcss/postcss@^4 | Tailwind CSS plugin for integrating with PostCSS.
+@types/node@^20 | TypeScript definitions for Node.js APIs.
+@types/react@^19 | TypeScript definitions for React components and hooks.
+@types/react-dom@^19 | TypeScript definitions for React DOM methods.
+eslint@^9 | Linting tool for maintaining code quality and catching errors.
+eslint-config-next@15.3.1 | Official ESLint configuration used in Next.js projects.
+tailwindcss@^4 | Utility-first CSS framework for rapid UI development.
+typescript@^5 | Superset of JavaScript adding strong typing and modern tooling features.
