@@ -68,12 +68,12 @@ Output:
 
 #### 🧾 Dependencies
 Only standard C++ libraries are used:
-1. <iostream>
-2. <fstream>
-3. <vector>
-4. <cmath>
-5. <algorithm>
-6. <limits>
+1. `<iostream>` – For input/output operations.
+2. `<fstream>` – For file handling (reading and writing files).
+3. `<vector>` – For using dynamic arrays.
+4. `<cmath>` – For mathematical functions (e.g., `sqrt`, `pow`).
+5. `<algorithm>` – For algorithms like `next_permutation`, `reverse`.
+6. `<limits>` – For constants like `numeric_limits<double>::max()`.
 No additional installations or external libraries are required.
 
 
