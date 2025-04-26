@@ -64,3 +64,25 @@ Input:
 
 Output:
 1 6 8 7 10 4 5 2 9 3 1 1886.77
+```
+
+# Simulation
+
+We built a 3D simulation using the Three.js library within the Next.js framework to visually represent the spacecraft navigating through the optimized path of waypoints. The simulation offers a dynamic view of how the path is traversed in 3D space, enhancing understanding of the optimization result.
+
+
+https://github.com/user-attachments/assets/fcb0b776-e1fb-4d8a-9727-b7fb1df96632
+
+#### How to Run the 3D Simulation Code
+
+```bash
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+```
+
+Go to http://localhost:3000 to view the 3D simulation.
+
+
