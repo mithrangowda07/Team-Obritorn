@@ -35,20 +35,19 @@ Create a file named `waypoints.txt` in the same directory as the code. Each line
 Use the following command to compile:
 
 ```bash
+# Use the following command to compile:
 g++ tsp_solver.cpp -o tsp_solver
 
+# To run the file. 
 ./tsp_solver
 
-### Sample Input 
-
+# Sample Input 
 Format :- <id> <x> <y> <z>
 
-### Sample Output
-
+# Sample Output
 Format :- 0 1 2 0 5.19
 
-
-### Testcase 1
+# Testcase 1
 
 Input:
 1 0.0 0.0 0.0
@@ -87,10 +86,10 @@ https://github.com/user-attachments/assets/fcb0b776-e1fb-4d8a-9727-b7fb1df96632
 #### How to Run the 3D Simulation Code
 
 ```bash
-Install dependencies:
+# Install dependencies:
 npm install
 
-Start the development server:
+# Start the development server:
 npm run dev
 ```
 
